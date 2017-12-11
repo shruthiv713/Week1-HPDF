@@ -1,0 +1,8 @@
+<head></head>
+<body>
+	<h1>Number of Posts by each Author</h1>
+       {% for a in res%}
+     	  <p>{{a['Name']}}-------->{{a['Count']}}</p>
+       {% endfor %}
+
+</body>
